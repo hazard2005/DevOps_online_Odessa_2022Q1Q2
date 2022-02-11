@@ -1,0 +1,17 @@
+a63fbb3 HEAD@{0}: merge develop: Fast-forward
+be5b28b HEAD@{1}: checkout: moving from develop to main
+a63fbb3 HEAD@{2}: commit (merge): fix merge styles
+7e0aeeb HEAD@{3}: merge images: Fast-forward
+cb0450a HEAD@{4}: checkout: moving from styles to develop
+e9e1530 HEAD@{5}: commit: change html
+b2e218a HEAD@{6}: commit: add styles
+cb0450a HEAD@{7}: checkout: moving from develop to styles
+cb0450a HEAD@{8}: checkout: moving from images to develop
+7e0aeeb HEAD@{9}: commit: change html
+6cdb617 HEAD@{10}: commit: images
+cb0450a HEAD@{11}: checkout: moving from develop to images
+cb0450a HEAD@{12}: commit: html commit
+be5b28b HEAD@{13}: checkout: moving from main to develop
+be5b28b HEAD@{14}: commit: init commit
+e57d547 HEAD@{15}: Branch: renamed refs/heads/master to refs/heads/main
+e57d547 HEAD@{17}: commit (initial): first commit
