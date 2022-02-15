@@ -6,9 +6,9 @@ Created a new repository and to fill it with some files.
 
 Created several new branches. 
 
-Next we merged the branches and resolved the conflict in files.
+Next merged the branches and resolved the conflict in files.
 
-The results of the work were merged into the main branch and pushed to GitHub.
+The results of the work merged into the main branch and pushed to GitHub.
 
 Here some screenshots:
 <img src="Screenshots/1.png">
