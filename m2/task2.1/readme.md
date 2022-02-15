@@ -26,6 +26,16 @@ Bridged       | +             | +             | +             |+              |+
 NAT           | +             | Port forward  | -             |-              |Port forward
 NATservice    | +             | Port forward  | +             |+              |Port forward
 
+Fig.5 - Work with CLI through VBoxManage
+<img src="screenshots/5.jpg">
 
+Fig.6 - Install, init and up Vagrant
+<img src="screenshots/6.jpg">
 
+Fig.7 - Connect via SSH, record time
+<img src="screenshots/7.jpg">
+
+Fig.8 - Stop and delete the created VM, create  own Vagrant box
+<img src="screenshots/8.jpg">
+<img src="screenshots/9.jpg">
 
