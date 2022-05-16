@@ -1,5 +1,6 @@
 Fig.1 - Setup DHCP pool on Enterprise DHCP Server:
- Checking IP on Client1 and Client2:
+
+Checking IP on Client1 and Client2:
 <img src="images/3.4.3.jpg">
 
 Fig.2 - Setup DHCP on Home Router:
