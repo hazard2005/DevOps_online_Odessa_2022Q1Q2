@@ -15,4 +15,4 @@ Fig.4 - Add Home Server on Home Office network, edit index.html, enable port for
 Check domain3.com in Web browser on Client1:
 <img src="images/3.4.13.jpg">
 
-[Final project 3.3.pkt](https://github.com/hazard2005/DevOps_online_Odessa_2022Q1Q2/raw/main/m3/task3.4/projects/3.4.pkt)
+[Final project 3.4.pkt](https://github.com/hazard2005/DevOps_online_Odessa_2022Q1Q2/raw/main/m3/task3.4/projects/3.4.pkt)
