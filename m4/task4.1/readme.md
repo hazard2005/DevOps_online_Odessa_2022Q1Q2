@@ -1,16 +1,10 @@
-Fig.1 - Setup DHCP pool on Enterprise DHCP Server
-
-Checking IP on Client1 and Client2:
-
-<img src="images/3.4.3.jpg">
-
-##Task1.Part1
+## Task1.Part1
 
 *1) Log in to the system as root (or sudo-er).*  
 ответ  
 <img src="images/1.jpg">  
 2) Use the passwd command to change the password. Examine the basic parameters 
-of the command. What system file does it change *?
+of the command. What system file does it change?
 3) Determine the users registered in the system, as well as  what commands they 
 execute. What additional information can be gleaned from the command execution?
 4) Change personal information about yourself.
@@ -18,13 +12,13 @@ execute. What additional information can be gleaned from the command execution?
 Get help on the previously discussed commands, define and describe any two keys 
 for these commands. Give examples.
 6) Explore the more and less commands using the help system. View the contents of 
-files .bash* using commands.
-7) *  Determine the last logon time for all users.  Tip: You should read the 
+files .bash using commands.
+7) Determine the last logon time for all users.  Tip: You should read the 
 documentation for the finger command.
-8) * List the contents of the home directory using the ls command, define its files 
+8) List the contents of the home directory using the ls command, define its files 
 and directories. Hint: Use the help system to familiarize yourself with the ls 
 command.
-Task1.Part2
+## Task1.Part2
 1) Examine the  tree  command. Master the technique of applying a template, for 
 example, display all files that contain a character  c, or files that contain a specific 
 sequence of characters. List subdirectories of the root directory up to and including 
@@ -69,4 +63,4 @@ must use stream redirection operations.
 13) What are the types of devices and how to determine the type of device? Give
 examples.
 14) How to determine the type of file in the system, what types of files are there?
-15) * List the first 5 directory files that were recently accessed in the /etc directory. 
+15) List the first 5 directory files that were recently accessed in the /etc directory. 
