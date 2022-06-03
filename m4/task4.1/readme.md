@@ -115,14 +115,14 @@ Which given file? Can count lines with previous command.
  <img src="images/21.jpg"> 
 *14) How to determine the type of file in the system, what types of files are there?*  
 The seven standard Unix file types are regular, directory, symbolic link, FIFO special, block special, character special, and socket as defined by POSIX.  
-The first character indicates the file type:
-- - regular file;
-d - directory;
-b - block device;
-c - character device;
-l - symbolic link;
-p - pipe (pipe, fifo);
-s - socket.
+The first character indicates the file type:  
+- - regular file;  
+d - directory;  
+b - block device;  
+c - character device;  
+l - symbolic link;  
+p - pipe (pipe, fifo);  
+s - socket.  
 **ls -l /bin/ls /dev/sda /dev/tty /sbin/halt /**  
 <img src="images/20.jpg">  
 *15) List the first 5 directory files that were recently accessed in the /etc directory.*  
