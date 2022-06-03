@@ -50,7 +50,7 @@ Command **cd** helps to travel at filesystem. At the end of command prompt we se
 I can return to home folder in several ways - **cd**, **cd ~**, **cd /home/epam** for user epam.  
 <img src="images/11.1.jpg">  
 *4) Become familiar with the various options for the ls command. Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches.*  
-Command **ls** has simply view.  
+`Command **ls** has simply view.`  
 <img src="images/8.jpg">  
 **ls -la** is more informative. It show show all hidden files **-a** and  use a long listing format **-l**.  
 <img src="images/8.1.jpg">  
