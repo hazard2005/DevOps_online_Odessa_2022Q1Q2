@@ -58,9 +58,9 @@ Command **ls** has simply view.
 *- create a subdirectory in the home directory;*  
 **mkdir Folder**  
 *-  in this subdirectory create a file containing information about directories located in the root directory (using I/O redirection operations);*  
-**ls -ld .*/ */ >> ~/Folder/"Folder info".txt**  
+`**ls -ld .*/ */ >> ~/Folder/"Folder info".txt**`  
 *- view the created file;*  
-**cat Folder/"Folder info".txt**  
+`**cat Folder/"Folder info".txt**`  
 *-  copy the created file to your home directory using relative and absolute addressing.*  
 **cp Folder/"Folder info.txt" ~/"Folder info.txt"** - copy via absolute path  
 **cp Folder/"Folder info.txt" /home/epam/"Folder info 2.txt"** - copy via relative path  
