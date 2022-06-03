@@ -27,7 +27,7 @@ View Bash history using **`less`**
 <img src="images/6.1.jpg">  
 After end of file all listing not avaliable in terminal.  
 *7) Determine the last logon time for all users.  Tip: You should read the documentation for the finger command.*  
-**`lastlog | sort -k 4 | tail -7`**
+**`lastlog | sort -k 4 | tail -7`**  
 <img src="images/7.jpg">  
 *8) List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command.*  
 Command **`ls`** has simply view.  
@@ -38,7 +38,7 @@ Command **`ls`** has simply view.
 *1) Examine the  tree  command. Master the technique of applying a template, for example, display all files that contain a character  c, or files that contain a specific sequence of characters. List subdirectories of the root directory up to and including the second nesting level.*  
 **`tree`** has simle output.  
 <img src="images/9.jpg">  
-See files in home folder with character "c". Add key **`-a`** we can see also hidden files.  
+See files in home folder with character **`"c"`**. Add key **`-a`** we can see also hidden files.  
 <img src="images/9.1.jpg">  
 List root subdirectories.  
 <img src="images/9.2.jpg">  
@@ -46,7 +46,7 @@ List root subdirectories.
 Command **`file`** show information about file. I had found executable files, text files, directory, block and character devices. Also Linux has symbol link, pipes and sockets.  
 <img src="images/10.jpg">  
 *3) Master the skills of navigating the file system using relative and absolute paths. How can you go back to your home directory from anywhere in the filesystem?*  
-Command **`cd`** helps to travel at filesystem. At the end of command prompt we see character ~. It indicate that we are in home directory now. Go to `/etc/`. Check our directory.  
+Command **`cd`** helps to travel at filesystem. At the end of command prompt we see character ~. It indicate that we are in home directory now. Go to **`/etc/`**. Check our directory.  
 <img src="images/11.jpg">  
 I can return to home folder in several ways - **`cd`**, **`cd ~`**, **`cd /home/epam`** for user epam.  
 <img src="images/11.1.jpg">  
@@ -76,11 +76,11 @@ Command **`ls`** has simply view.
 *-  copy the  .bash_history  file to this directory while changing its name to labwork2;*  
 **`cp .bash_history test/labwork2`**  
 *- create a hard and soft link to the labwork2 file in the test subdirectory;*  
-**`ln test/labwork2 test/hard_link_labwork2;ln -s ~/test/labwork2 ~/test/soft_link_labwork2`**  
+**`ln test/labwork2 test/hard_link_labwork2; ln -s ~/test/labwork2 ~/test/soft_link_labwork2`**  
 *- how to define soft and hard link, what do these concepts;*  
 By creating a hard link, we bind to its index number (inode), getting the same file and permissions (with a new name) that the link points to, but without physically creating a copy. A soft link points to a file name (path) and has other inode and permissions.  
 *- change the data by opening a symbolic link. What changes will happen and why;*  
-When I changed **`soft_link_labwork2`** its last modified time does not changed because it is only link to real file labwork2. The file labwork2 and hard_link_labwork2 were modified.  
+When I changed **`soft_link_labwork2`** its last modified time does not changed because it is only link to real file labwork2. The file **`labwork2`** and **`hard_link_labwork2`** were modified.  
 *- rename the hard link file to hard_lnk_labwork2;*  
 **`mv test/hard_link_labwork2 test/hard_lnk_labwork2`**  
 *- rename the soft link file to symb_lnk_labwork2 file;*  
@@ -103,12 +103,12 @@ Which given file? Can count lines with previous command.
 **`sudo find /etc -name *host*`**  
 <img src="images/17.jpg">  
 *11) List all objects in /etc that contain the ss character sequence. How can I  duplicate a similar command using a bunch of grep?*  
-**`ls -l /etc/*ss*`  
+**`ls -l /etc/*ss*`**  
 <img src="images/18.jpg">  
 **`ls -l /etc/ | grep ss`**  
 <img src="images/19.jpg">  
 *12) Organize a screen-by-screen print of the contents of the /etc directory. Hint:  You must use stream redirection operations.*  
-**`ls /etc/ | tee output.txt | less**  or **ls /etc/ |tee output.txt | more`**  
+**`ls /etc/ | tee output.txt | less`**  or **`ls /etc/ |tee output.txt | more`**  
 *13) What are the types of devices and how to determine the type of device? Give examples.*  
  Linux supports three types of hardware device: character, block and network. Character devices are read and written directly without buffering. Block devices are accessed via the buffer cache and may be randomly accessed, that is to say, any block can be read or written no matter where it is on the device. Network devices are accessed via the BSD socket interface and the networking subsytems. The first character indicates the file type `- b - block device, c - character device and s - socket.` As you can see I don't have network devices.  
  **`ls -l /dev/sda /dev/tty`**  
