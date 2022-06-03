@@ -122,7 +122,6 @@ c - character device;
 l - symbolic link;  
 p - pipe (pipe, fifo);  
 s - socket.  
-
 **`ls -l /bin/ls /dev/sda /dev/tty /sbin/halt`**  
 <img src="images/20.jpg">  
 *15) List the first 5 directory files that were recently accessed in the /etc directory.*  
