@@ -125,7 +125,7 @@ s - socket.
 **ls -l /bin/ls /dev/sda /dev/tty /sbin/halt /**  
 <img src="images/20.jpg">  
 *15) List the first 5 directory files that were recently accessed in the /etc directory.*  
-**ls -lAhut /etc/ |head -10**  
+**`ls -lAhut /etc/ |head -10`**  
 Check which new files are in this directory.  
-**ls -lAhut /etc/cni |head -10**  
+**`ls -lAhut /etc/cni |head -10`**  
 <img src="images/22.jpg">  
