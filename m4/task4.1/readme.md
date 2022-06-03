@@ -50,7 +50,7 @@ Command **cd** helps to travel at filesystem. At the end of command prompt we se
 I can return to home folder in several ways - **cd**, **cd ~**, **cd /home/epam** for user epam.  
 <img src="images/11.1.jpg">  
 *4) Become familiar with the various options for the ls command. Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches.*  
-`Command **ls** has simply view.`  
+Command `**ls**` has simply view.  
 <img src="images/8.jpg">  
 **ls -la** is more informative. It show show all hidden files **-a** and  use a long listing format **-l**.  
 <img src="images/8.1.jpg">  
@@ -58,9 +58,9 @@ I can return to home folder in several ways - **cd**, **cd ~**, **cd /home/epam*
 *- create a subdirectory in the home directory;*  
 **mkdir Folder**  
 *-  in this subdirectory create a file containing information about directories located in the root directory (using I/O redirection operations);*  
-`**ls -ld .*/ */ >> ~/Folder/"Folder info".txt**`  
+** `ls -ld .*/ */ >> ~/Folder/"Folder info".txt`**  
 *- view the created file;*  
-`**cat Folder/"Folder info".txt**`  
+**`cat Folder/"Folder info".txt`**  
 *-  copy the created file to your home directory using relative and absolute addressing.*  
 **cp Folder/"Folder info.txt" ~/"Folder info.txt"** - copy via absolute path  
 **cp Folder/"Folder info.txt" /home/epam/"Folder info 2.txt"** - copy via relative path  
