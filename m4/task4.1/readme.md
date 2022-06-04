@@ -129,4 +129,4 @@ The first character indicates the file type:
 *15) List the first 5 directory files that were recently accessed in the /etc directory.*  
 **`ls -lAhut /etc/ |head -5`**   
 <img src="images/22.jpg">  
- 
+ x
