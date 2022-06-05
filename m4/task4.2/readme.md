@@ -25,7 +25,7 @@ the system and are only needed to confirm ownership of the processes.
 <img src="images/1.2.jpg">  
 *2) What are the uid ranges?*  
 UID ranges:  
--0 reserved for root  
+- 0 reserved for root  
 - 1-999 for pseudo-userd,daemon (sometimes 1-500)  
 - 1000-65535 for regular users (sometimes 500 - 65535)  
 
@@ -51,7 +51,7 @@ Run **`usermod -l` new_login old_login**
 Directory `/etc/skel/` contains files which must be copied to the new user's home directory.  
 <img src="images/6.jpg">  
 *8) How to remove a user from the system (including his mailbox)?*  
-**`userdel -r` username ** remove `username` home directory and mail spool.  
+**`userdel -r` username`** remove `username` home directory and mail spool.  
 *9) What commands and keys should be used to lock and unlock a user account?*  
 To lock user use **`usermod -L` username**  
 To unlock user use **`usermod -U` username**  
