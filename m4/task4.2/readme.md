@@ -55,7 +55,7 @@ Directory `/etc/skel/` contains files which must be copied to the new user's hom
 *9) What commands and keys should be used to lock and unlock a user account?*  
 To lock user use **`usermod -L` username**  
 To unlock user use **`usermod -U` username**  
-*10) How to remove a user's password and provide him with a password-free login for subsequent password change?*
+*10) How to remove a user's password and provide him with a password-free login for subsequent password change?*  
 To do this just **`passwd -de` username**. Key `-d` to delete password, key `-e` expire the password.  
 <img src="images/8.jpg">  
 *11) Display the extended format of information about the directory, tell about the information columns displayed on the terminal.*  
