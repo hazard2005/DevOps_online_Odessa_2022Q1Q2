@@ -1,5 +1,5 @@
 ## Task2  
-*1) Analyze the structure of the /etc/passwd and /etc/group file, what fields are present in it, what users exist on the system? *  
+*1) Analyze the structure of the /etc/passwd and /etc/group file, what fields are present in it, what users exist on the system?*  
 Structure of each line of **`/etc/passwd:`**  
 **`1:x:2:3:4:5:6`** where  
 `1 - User`  
@@ -24,18 +24,19 @@ Pseudo-users are users which run in background and no one will be able to log in
 the system and are only needed to confirm ownership of the processes.  
 <img src="images/1.2.jpg">  
 *2) What are the uid ranges?*  
-UID ranges:
+UID ranges:  
 -0 reserved for root  
 - 1-999 for pseudo-userd,daemon (sometimes 1-500)  
 - 1000-65535 for regular users (sometimes 500 - 65535)  
+
 *What is UID? How to define it?*  
 UID is the number associated with the user account and stored in the /etc/passwd file on 3 position.  
 <img src="images/2.jpg">  
-1013 is **UID** of user epam.
-*3) What is GID? How to define it?*
+1013 is **UID** of user epam.  
+*3) What is GID? How to define it?*  
 Group Identifier (GID) is a number associated with a group and stored in the /etc/passwd file on 4 position.  
 <img src="images/3.jpg">  
-1017 is **GUID** of user epam.
+1017 is **GUID** of user epam.  
 *4) How to determine belonging of user to the specific group?*  
 Run **`groups` user**  
 <img src="images/4.jpg">  
