@@ -115,7 +115,7 @@ Create folder with Sticky bit and setup it:
 **`ls -ld "folder Sticky bit"`**  
 <img src="images/15.jpg">  
 *17) What file attributes should be present in the command script?*  
-When you run script with shell only read permission needed. Youn need add execute permission to run without shell.  
+When you run script with shell only read permission needed. You need add execute permission to run without shell.  
 **`ls -l`**  
 **`sh hello.sh`**  
 **`./hello.sh`**  
