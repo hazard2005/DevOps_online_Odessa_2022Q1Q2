@@ -94,6 +94,7 @@ or
 Use **`chmod g-x,o-wx file.txt`**  
 <img src="images/12.jpg">  
 *15) What is an example of octal representation of access rights? Describe the umask command.*  
+
 |Octal Value |	File Permissions Set |	Permissions Description |
 --------|-----------|------------
 	0 	|	---		|	No permissions 
