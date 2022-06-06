@@ -112,7 +112,7 @@ Create folder with Sticky bit and setup it:
 **`mkdir "folder Sticky bit"`**  
 **`ls -ld "folder Sticky bit"`**  
 **`chmod +t "folder Sticky bit"`**  
-**`ls -ld "folder Sticky bit"`**
+**`ls -ld "folder Sticky bit"`**  
 <img src="images/15.jpg">  
 *17) What file attributes should be present in the command script?*  
 When you run script with shell only read permission needed. Youn need add execute permission to run without shell.  
