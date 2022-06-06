@@ -62,15 +62,15 @@ To do this just **`passwd -de` username**. Key `-d` to delete password, key `-e`
 Run **`ls -lihA`** where -l is long listing format, -i show inode, -h is human readable, -A almost all files   
 <img src="images/11.jpg">  
 For example take the last file **`tree.txt`:**  
-- 6001016 inode  
-`-` is regular file  
-rw-rw-r-- is file permissions  
-1 is number of linked hard-links  
-epam - owner of the file
-epam - to which group this file belongs to
-59K - size of file
-Jun  2 07:54 is modification/creation date and time
-tree.txt - file name
+- `6001016` inode  
+- `-` is regular file  
+- `rw-rw-r--` is file permissions  
+- `1` is number of linked hard-links  
+- `epam` - owner of the file
+- `epam` - to which group this file belongs to
+- `59K` - size of file
+- `Jun  2 07:54` is modification/creation date and time
+- `tree.txt` - file name  
 *12) What access rights exist and for whom (i. e., describe the main roles)? Briefly describe the acronym for access rights.*  
 Each file or directory has three basic permission types:  
 **`read` r** – the read permission refers to a user’s capability to read the contents of the file.  
