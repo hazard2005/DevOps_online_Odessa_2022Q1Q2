@@ -96,15 +96,16 @@ Use **`chmod g-x,o-wx file.txt`**
 *15) What is an example of octal representation of access rights? Describe the umask command.*  
 
 |Octal Value |	File Permissions Set |	Permissions Description |
---------|-----------|------------
-	0 	|	---		|	No permissions 
-	1	|	--x 	|	Execute permission only 
-	2 	|	-w-	 	|	Write permission only 
-	3	|	-wx 	|	Write and execute permissions 
-	4 	|	r-- 	|	Read permission only 
-	5 	|	r-x 	|	Read and execute permissions 
-	6 	|	rw- 	|	Read and write permissions 
-	7 	|	rwx 	|	Read, write, and execute permissions 
+|--------|-----------|------------|
+|	0 	|	---		|	No permissions|
+|	1	|	--x 	|	Execute permission only|
+|	2 	|	-w-	 	|	Write permission only|
+|	3	|	-wx 	|	Write and execute permissions|
+|	4 	|	r-- 	|	Read permission only|
+|	5 	|	r-x 	|	Read and execute permissions|
+|	6 	|	rw- 	|	Read and write permissions|
+|	7 	|	rwx 	|	Read, write, and execute permissions|
+
 *16) Give definitions of sticky bits and mechanism of identifier substitution. Give an example of files and directories with these attributes.*  
 Sticky Bit is mainly used on folders in order to avoid deletion of a folder and it’s content by other users though they having write permissions on the folder contents. If Sticky bit is enabled on a folder, the folder contents are deleted by only owner who created them and the root user.  
 Create folder with Sticky bit and setup it:  
