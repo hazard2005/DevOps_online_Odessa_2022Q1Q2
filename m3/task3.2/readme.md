@@ -14,6 +14,8 @@ Fig.1 - Create Internet network with subnetworks:
 
 Checking connection:
 <img src="images/3.2.5.jpg">
+Devide subnets  
+<img src="images/subnets.jpg">  
 
 After changing mask network to 255.255.255.192 connection was unreachable because with mask /26 avaliable number of usable hosts is 62. So web servers on different subnets cannot ping.
 
