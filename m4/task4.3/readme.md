@@ -114,3 +114,4 @@ Let's try generate all of them:
 *4. Implement port forwarding for the SSH client from the host machine to the guest Linux virtual machine behind NAT.*  
 
 *5. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.*  
+ 
