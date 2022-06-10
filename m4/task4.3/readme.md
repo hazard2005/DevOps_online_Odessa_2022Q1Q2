@@ -64,9 +64,10 @@ Top can sort by hot keys:
 |%MEM|Shift+M| Memory usage|
 |----|-------|-------------|
 |TIME|Shift+T|Time usage|
-PID|Shift+N|PID sort|
-%CPU|Shift+P|Processor usage|
+|PID|Shift+N|PID sort|
+|%CPU|Shift+P|Processor usage|
 |    |Shift+F|Other fields|  
+
 *14. Concept of priority, what commands are used to set priority?*  
 The computer shares its processing time between all of the running processes. Certain processes can have a higher priority than others. Use **`renice` priority PID**  
 <img src="images/14.jpg">  
