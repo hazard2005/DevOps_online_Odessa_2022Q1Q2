@@ -47,7 +47,7 @@ Run **`ps -u username`**
 Run **`ps -axo user,stat,command --sort stat | grep R`**  
 <img src="images/9.jpg">  
 *10. What information does top command display?*  
-Top display system summary information as well as a list of processes or threads currently being managed by the Linux kernel. 
+Top display system summary information as well as a list of processes or threads currently being managed by the Linux kernel.  
 *11. Display the processes of the specific user using the top command.*  
 Run **`top -u username`**  
 <img src="images11.jpg">  
