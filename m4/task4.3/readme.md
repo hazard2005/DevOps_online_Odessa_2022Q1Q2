@@ -57,7 +57,8 @@ u - select user
 k - kill  
 r - renice  
 h - help  
-q - quit
+q - quit  
+
 *13. Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)*  
 Top can sort by hot keys:  
 |%MEM|Shift+M| Memory usage|
