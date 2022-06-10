@@ -50,7 +50,7 @@ Run **`ps -axo user,stat,command --sort stat | grep R`**
 Top display system summary information as well as a list of processes or threads currently being managed by the Linux kernel.  
 *11. Display the processes of the specific user using the top command.*  
 Run **`top -u username`**  
-<img src="images11.jpg">  
+<img src="images/11.jpg">  
 *12. What interactive commands can be used to control the top command? Give a couple of examples.*  
 z - color mono  
 u - select user  
@@ -68,7 +68,7 @@ PID|Shift+N|PID sort|
     |Shift+F|Other fields|  
 *14. Concept of priority, what commands are used to set priority?*  
 The computer shares its processing time between all of the running processes. Certain processes can have a higher priority than others. Use **`renice` priority PID**  
-<img src="images14.jpg">  
+<img src="images/14.jpg">  
 *15. Can I change the priority of a process using the top command? If so, how?*  
 Yes, just press `r` then enter PID and priority from 0 to 20 or -20 to 20 (root needed).  
 *16. Examine the kill command. How to send with the kill command process control signal? Give an example of commonly used signals.*  
@@ -85,7 +85,7 @@ On Windows workstation:
 Check SSH is present - **`ssh`**.   
 Connect to remote Linux PC with password - **`ssh epam@192.168.1.50`**  
 Check hostname and working directory - **`hostname`**, **`pwd`**  
-<img src="images21.jpg">  
+<img src="images/21.jpg">  
 Setup to connect with key. 
 Generate key - **`ssh-keygen -t rsa -b 4096 -f C:\Users\VitaliyPiper\.ssh\epam_ssh_rsa -C "epam" -P ""`**  
 Windows does not have ssh-copy-id so doing some manual work. I can't find simple solution in Google so I make some command sequence.  
@@ -97,7 +97,7 @@ Then copy public key in file `authorized_keys`, change rights and remove temp pu
 Try to connect without password:  
 **`ssh -i C:\Users\VitaliyPiper\.ssh\epam_ssh_rsa epam@192.168.1.50`**  
 Connection successful!  
-<img src="images22.jpg">  
+<img src="images/22.jpg">  
 *2. Implement basic SSH settings to increase the security of the client-server connection (at least)*  
 To improve the security of the remote server do next steps:  
 - Disable Server SSH Root Login  
@@ -108,10 +108,10 @@ To improve the security of the remote server do next steps:
 - Use Fail2ban  
 *3. List the options for choosing keys for encryption in SSH. Implement 3 of them.*  
 Let's see what types of keys are available:  
-<img src="images23.jpg">  
+<img src="images/23.jpg">  
 Let's try generate all of them:  
 **`ssh-keygen -t rsa -P "" && ssh-keygen -t dsa -P "" && ssh-keygen -t ed25519 -P ""`**  
-<img src="images233.jpg">  
+<img src="images/233.jpg">  
 *4. Implement port forwarding for the SSH client from the host machine to the guest Linux virtual machine behind NAT.*  
 
 *5. Intercept (capture) traffic (tcpdump, wireshark) while authorizing the remote client on the server using ssh, telnet, rlogin. Analyze the result.*  
