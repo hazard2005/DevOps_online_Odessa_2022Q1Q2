@@ -108,6 +108,7 @@ To improve the security of the remote server do next steps:
 - Change default port 22 below 1024 and and do not use similar ports 222, 2222, 22222  
 - Allow access only to specific IP  
 - Use Fail2ban  
+
 *3. List the options for choosing keys for encryption in SSH. Implement 3 of them.*  
 Let's see what types of keys are available:  
 <img src="images/23.jpg">  
