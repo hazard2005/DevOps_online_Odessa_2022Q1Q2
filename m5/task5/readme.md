@@ -137,14 +137,15 @@ On Server_1 I have firewalld instead iptables, so going to set up it for the fir
 **`firewall-cmd --permanent --change-interface=enp0s8 --zone=internal`**  
 **`firewall-cmd --permanent --change-interface=enp0s9 --zone=internal`**  
 **`firewall-cmd --reload`**  
-SSH is already enable in External zone. So both clients can connect via SSH to Server_1. Deny SSH for Client_2 using rich rule.  
+SSH is already enable in External zone. So both clients can connect via SSH to Server_1.  
+Deny SSH for Client_2 using rich rule.  
 **`firewall-cmd --permanent --zone=internal --add-rich-rule 'rule family="ipv4" source address="10.4.87.100" service name="ssh" reject'`**  
 **`firewall-cmd --reload`**  
 Client_1 - success connect:  
 <img src="images/7.1.jpg">  
 Client_2 - connect refused:  
 <img src="images/7.2.jpg">  
--  *З Client_2 на 172.17.D+10.1 ping проходив, а на 172.17.D+20.1 не проходив*  
+*- З Client_2 на 172.17.D+10.1 ping проходив, а на 172.17.D+20.1 не проходив*  
 I can't find a solution to do this with Firewalld. Only block all ICMP or accept.  
 *8. Якщо в п.3 була налаштована маршрутизація для доступу  Client_1 та Client_2 до мережі Інтернет –  видалити відповідні записи. На Server_1  налаштувати NAT сервіс таким чином, щоб з Client_1 та Client_2 проходив ping в мережу Інтернет*  
 On External zone masquarade is already enabled. But in other zone it can be turned on by command:  
