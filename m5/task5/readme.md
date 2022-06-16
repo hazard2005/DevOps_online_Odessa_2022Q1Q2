@@ -1,4 +1,4 @@
-### EPAM University Programs DevOps external course  
+### EPAM University Programs DevOps external course  ³ףךוםדרש
 ## Module ג€“ Linux Networking  
 Network Ip adressess:  
 |Net|IP|
