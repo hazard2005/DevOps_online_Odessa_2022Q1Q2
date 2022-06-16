@@ -64,23 +64,26 @@ Check IP:
 
 Setup connection on Client_2:
 **`touch /etc/netplan/dynamic.yaml`**  
-
-```network:
+```
+network:
   renderer: networkd
   ethernets:
      enp0s8:
          dhcp4: true
-  version: 2```
+  version: 2
+```
 
 **`touch /etc/netplan/static.yaml`**  
 
-```network:
+```
+network:
   renderer: networkd
   ethernets:
      enp0s9:
          dhcp4: no
 		 addresses: [172.16.7.12/24]
-  version: 2```
+  version: 2
+```
 
 **`netplan try`**  
 **`netplan apply`**  
