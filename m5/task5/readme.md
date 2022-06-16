@@ -31,7 +31,8 @@ Up all interfaces and check it:
 Install DHCP:  
 **`dnf install dhcp-server`**  
 Configure dhcpd.conf:  
-```default-lease-time 600;
+```
+default-lease-time 600;
 max-lease-time 7200;
 authoritative;
 subnet 10.87.7.0 netmask 255.255.255.0 {
@@ -62,7 +63,7 @@ Check IP:
 **`ip a|grep -w 'inet'`**  
 <img src="images/2.1.jpg">  
 
-Setup connection on Client_2:
+Setup connection on Client_2:  
 **`touch /etc/netplan/dynamic.yaml`**  
 ```
 network:
@@ -130,7 +131,7 @@ From Client_1 to Server_1 and Client_2:
 From Client_2 to Server_1 and Client_1:  
 <img src="images/6.2.jpg">  
 *7. Налаштуйте на Server_1 firewall таким чином:*  
--  *Дозволено підключатись через SSH з Client_1 та заборонено з Client_2*  
+*- Дозволено підключатись через SSH з Client_1 та заборонено з Client_2*  
 On Server_1 I have firewalld instead iptables, so going to set up it for the first time. Move interface enp0s3 to external zone and interfaces enp0s8 and enp0s9 to internal.  
 **`firewall-cmd --permanent --change-interface=enp0s3 --zone=external`**  
 **`firewall-cmd --permanent --change-interface=enp0s8 --zone=internal`**  
