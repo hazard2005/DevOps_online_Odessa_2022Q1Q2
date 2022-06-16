@@ -43,8 +43,8 @@ subnet 10.4.87.0 netmask 255.255.255.0 {
   range 10.4.87.100 10.4.87.200;
   option routers 10.4.87.1;
   option domain-name-servers 10.4.87.1, 8.8.8.8;
-}```  
-
+}  
+```
 Enable autorun and start service:  
 **`systemctl enable dhcpd`**  
 **`systemctl start dhcpd`**  
