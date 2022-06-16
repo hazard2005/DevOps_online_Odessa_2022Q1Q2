@@ -1,4 +1,4 @@
-### EPAM University Programs DevOps external course  ³óêåíãøù
+### EPAM University Programs DevOps external course  
 ## Module â€“ Linux Networking  
 Network Ip adressess:  
 |Net|IP|
@@ -31,7 +31,7 @@ Up all interfaces and check it:
 Install DHCP:  
 **`dnf install dhcp-server`**  
 Configure dhcpd.conf:  
-**```default-lease-time 600;
+```default-lease-time 600;
 max-lease-time 7200;
 authoritative;
 subnet 10.87.7.0 netmask 255.255.255.0 {
@@ -43,7 +43,7 @@ subnet 10.4.87.0 netmask 255.255.255.0 {
   range 10.4.87.100 10.4.87.200;
   option routers 10.4.87.1;
   option domain-name-servers 10.4.87.1, 8.8.8.8;
-}`**
+}```**  
 
 Enable autorun and start service:  
 **`systemctl enable dhcpd`**  
