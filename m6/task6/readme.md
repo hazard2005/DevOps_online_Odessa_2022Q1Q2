@@ -8,6 +8,7 @@ I don't have DNS server so have no ideas how to reverse hostname from IP, used N
 [Source code](https://github.com/hazard2005/DevOps_online_Odessa_2022Q1Q2/blob/main/m6/task6/scripts/scriptA.sh)
 <img src="images/1.jpg">  
 <img src="images/1.1.jpg">  
+
 *B. Using Apache log example create a script to answer the following questions:*  
 *1. From which ip were the most requests?*  
 I made a universal script for parsing a site. Screenshots of script execution examples below.  
