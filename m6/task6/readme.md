@@ -5,11 +5,11 @@
 3. *The --target key displays a list of open system TCP ports.*  
 *The code that performs the functionality of each of the subtasks must be placed in a separate function*  
 I don't have DNS server so have no ideas how to reverse hostname from IP, used Nmap to scan network  
-[Source code](http://example.com/link)
+[Source code](https://github.com/hazard2005/DevOps_online_Odessa_2022Q1Q2/blob/main/m6/task6/scripts/scriptA.sh)
 <img src="images/1.jpg">  
 <img src="images/1.1.jpg">  
 *B. Using Apache log example create a script to answer the following questions:*  
-1. *From which ip were the most requests?*  
+*1. From which ip were the most requests?*  
 I made a universal script for parsing a site. Screenshots of script execution examples below.  
 <img src="images/2.1.jpg">  
 2. *What is the most requested page?*  
