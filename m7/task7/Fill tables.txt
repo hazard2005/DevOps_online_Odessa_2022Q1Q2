@@ -1,0 +1,51 @@
+CREATE TABLE Artist(
+id int AUTO_INCREMENT,
+Artist varchar(40),
+PRIMARY KEY (id)
+);
+
+CREATE TABLE Track(
+id int AUTO_INCREMENT,
+Track varchar(40),
+PRIMARY KEY (id)
+);
+
+CREATE TABLE Album(
+id int AUTO_INCREMENT,
+Album varchar(40),
+PRIMARY KEY (id)
+);
+
+CREATE TABLE Year(
+id int AUTO_INCREMENT,
+Year YEAR,
+PRIMARY KEY (id)
+);
+
+INSERT INTO Artist (Artist) VALUES
+('Paula Abdul'),
+('Double You'),
+('Antares'),
+('Cappella'),
+('David Guetta');
+
+INSERT INTO Track (Track) VALUES 
+('Straight Up'),
+('Got to love'),
+('Ride on a meteorite (Alternative mix)'),
+('U got 2 let the music'),
+('Love Don''t Let Me Go');
+
+INSERT INTO Album (Album) VALUES 
+('Forever Your Girl'),
+('We All Need Love'),
+('Ride on a meteorite'),
+('U Got 2 Know'),
+('Just A Little More Love');
+
+INSERT INTO Year (Year) VALUES 
+('1988'),
+('1995'),
+('1995'),
+('1994'),
+('2004');
