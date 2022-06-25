@@ -82,6 +82,7 @@ show tables;
 *17. Create a database. Use the use command to connect to a new database (If it doesn't exist, Mongo will create it when you write to it).*  
 <img src="images/10.jpg">  
 ```use demo;```  
+
 *18. Create a collection. Use db.createCollection to create a collection. I'll leave the subject up to you. Run show dbs and show collections to view your database and collections.*  
 ```db.createCollection ("Test_collection")
 show dbs
