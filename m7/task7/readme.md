@@ -87,10 +87,12 @@ show tables;
 ```db.createCollection ("Test_collection")
 show dbs
 show collections```  
+
 <img src="images/11.jpg">  
 *19. Create some documents. Insert a couple of documents into your collection. I'll leave the subject matter up to you, perhaps cars or hats.*  
 ```db.books.insertOne({title: "MongoDB", likes: 100});
 db.books.insertMany([{title: "a"}, {name: "b"}]);```
+
 *20. Use find() to list documents out.*  
 ```db.books.find({})```
 <img src="images/12.jpg">  
