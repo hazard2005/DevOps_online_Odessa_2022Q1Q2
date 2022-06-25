@@ -65,6 +65,7 @@ show tables;
 ```  
 <img src="images/6.jpg">  
 *12.Restore your database.*  
+
 ```
 mysql Music_Library  < db_backup.sql
 show tables;
