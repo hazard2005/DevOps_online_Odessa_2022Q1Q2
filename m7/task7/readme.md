@@ -99,5 +99,5 @@ db.books.insertMany([{title: "a"}, {name: "b"}]);
 ```
 
 *20. Use find() to list documents out.*  
-```db.books.find({})```
+```db.books.find({})```  
 <img src="images/12.jpg">  
