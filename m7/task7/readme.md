@@ -91,6 +91,7 @@ show collections
 ```  
 
 <img src="images/11.jpg">  
+
 *19. Create some documents. Insert a couple of documents into your collection. I'll leave the subject matter up to you, perhaps cars or hats.*  
 ```
 db.books.insertOne({title: "MongoDB", likes: 100});
