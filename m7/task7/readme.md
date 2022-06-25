@@ -35,7 +35,8 @@ CREATE DATABASE test_users;
 USE test_users
 ```
 
-```CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+```
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 GRANT CREATE, INSERT, SELECT ON Music_Library.* TO 'newuser'@'localhost';
 FLUSH PRIVILEGES;
 ```
