@@ -71,7 +71,7 @@ mysql Music_Library  < db_backup.sql
 show tables;
 ```  
 *13.Transfer your local database to RDS AWS.*  
-```mysql -u main -p lab-password -h lab-db.cdemdlwkcamo.us-east-1.rds.amazonaws.com < db_backup.sql```
+```mysql -u main -p lab-password -h lab-db.cdemdlwkcamo.us-east-1.rds.amazonaws.com < db_backup.sql```  
 *14.Connect to your database.*  
 *15.Execute SELECT operator similar step 6.*  
 <img src="images/9.jpg">  
