@@ -51,9 +51,7 @@ delete from Comment where Comment='Test';
 ```
 <img src="images/4.jpg">  
 *9. Make a selection from the main table DB MySQL.*  
-```
-SELECT * FROM mysql.user;
-```
+``SELECT * FROM mysql.user;``
 <img src="images/5.jpg"> 
 
 ## PART 2 
