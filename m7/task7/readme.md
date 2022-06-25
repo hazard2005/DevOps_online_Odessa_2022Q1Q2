@@ -22,6 +22,7 @@ ORDER BY Year;
 ```
 <img src="images/3.jpg">  
 *7. Execute other different SQL queries DDL, DML, DCL.*  
+
 DDL - RENAME, DML - DELETE, DCL - GRANT  
 ```
 RENAME TABLE Genre TO subGenre;
