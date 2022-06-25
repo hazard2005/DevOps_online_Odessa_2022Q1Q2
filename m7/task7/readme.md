@@ -7,24 +7,32 @@
 <img src="images/1.jpg">  
 *3. Select a subject area and describe the database schema, (minimum 3 tables)*  
 *4. Create a database on the server through the console.*  
-```CREATE DATABASE Music_Library;
-USE Music_Library```
+```
+CREATE DATABASE Music_Library;
+USE Music_Library
+```
 *5. Fill in tables.*  
 <img src="images/2.jpg">  
 *6. Construct and execute SELECT operator with WHERE, GROUP BY and ORDER BY.*  
-```SELECT * FROM Year
+```
+SELECT * FROM Year
 WHERE Year > 1990
 GROUP BY id
-ORDER BY Year;```
+ORDER BY Year;
+```
 <img src="images/3.jpg">  
 *7. Execute other different SQL queries DDL, DML, DCL.*  
 DDL - RENAME, DML - DELETE, DCL - GRANT
-```RENAME TABLE Genre TO subGenre;
-DELETE from subGenre where Genre='Acoustic';```
+```
+RENAME TABLE Genre TO subGenre;
+DELETE from subGenre where Genre='Acoustic';
+```
 GRANT below.
 *8. Create a database of new users with different privileges. Connect to the database as a new user and verify that the privileges allow or deny certain actions.*  
-```CREATE DATABASE test_users;
-USE test_users```
+```
+CREATE DATABASE test_users;
+USE test_users
+```
 
 ```CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 GRANT CREATE, INSERT, SELECT ON Music_Library.* TO 'newuser'@'localhost';
@@ -41,7 +49,9 @@ delete from Comment where Comment='Test';
 ```
 <img src="images/4.jpg">  
 *9. Make a selection from the main table DB MySQL.*  
-```SELECT * FROM mysql.user;```
+```
+SELECT * FROM mysql.user;
+```
 <img src="images/5.jpg"> 
 
 ## PART 2 
