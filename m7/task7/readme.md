@@ -22,12 +22,12 @@ ORDER BY Year;
 ```
 <img src="images/3.jpg">  
 *7. Execute other different SQL queries DDL, DML, DCL.*  
-DDL - RENAME, DML - DELETE, DCL - GRANT
+DDL - RENAME, DML - DELETE, DCL - GRANT  
 ```
 RENAME TABLE Genre TO subGenre;
 DELETE from subGenre where Genre='Acoustic';
 ```
-GRANT below.
+GRANT below.  
 *8. Create a database of new users with different privileges. Connect to the database as a new user and verify that the privileges allow or deny certain actions.*  
 ```
 CREATE DATABASE test_users;
