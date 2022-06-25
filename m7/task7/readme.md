@@ -59,11 +59,14 @@ delete from Comment where Comment='Test';
 *10.Make backup of your database.*  
 ```mysqldump --databases Music_Library > db_backup.sql```  
 *11.Delete the table and/or part of the data in the table.*  
-```DROP TABLE Music_Library.Comment;
-show tables;```  
+```
+DROP TABLE Music_Library.Comment;
+show tables;
+```  
 <img src="images/6.jpg">  
 *12.Restore your database.*  
-```mysql Music_Library  < db_backup.sql
+```
+mysql Music_Library  < db_backup.sql
 show tables;
 ```  
 *13.Transfer your local database to RDS AWS.*  
